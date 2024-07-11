@@ -9,6 +9,7 @@
     width: 100%;
     text-align: center;
     font-size: 25px;
+    border: 1px black top solid;
     .itemLeft{
         margin-left: 5%;
         margin-top: auto;
@@ -25,6 +26,8 @@
         border: 1px $footerMainColor solid;
         height: 100px;
         width: 100px;
+        max-width: 60%;
+        max-height: 60%;
     }
     button{
         padding: 2%;

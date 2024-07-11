@@ -8,6 +8,7 @@
   width: 100%;
   text-align: center;
   font-size: 25px;
+  border: 1px black top solid;
 }
 .main .itemLeft {
   margin-left: 5%;
@@ -25,6 +26,8 @@
   border: 1px #242931 solid;
   height: 100px;
   width: 100px;
+  max-width: 60%;
+  max-height: 60%;
 }
 .main button {
   padding: 2%;
