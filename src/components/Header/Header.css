@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #030407;
+  height: 20%;
+  padding: 1%;
+  color: aliceblue;
+  width: 100%;
+  display: inline-flex;
+  flex: 1 4 1;
+}
+.navbar .middle {
+  flex: 4;
+}
+.navbar div {
+  display: inline-flex;
+  flex: 1 4 1;
+}
+.navbar .rightPanel {
+  flex: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10%;
+  font-size: 24px;
+  color: #fefeff;
+  text-align: center;
+  display: inline;
+}
+.navbar .rightPanel .showUser {
+  font-weight: bolder;
+}
+.navbar .rightPanel .userName {
+  display: none;
+}
+.navbar .leftPanel {
+  flex: 1;
+  margin-left: 3%;
+}
+.navbar .leftPanel a {
+  text-decoration: none;
+}
+
+svg {
+  width: 80px;
+  height: 80px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.logo {
+  border-radius: 50%;
+  background-color: #2c2c2c;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  flex: 1;
+}/*# sourceMappingURL=Header.css.map */
