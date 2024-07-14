@@ -1,6 +1,8 @@
-import './Footer.css'
-function Footer(){
-    return(
+import './Footer.css';
+import React from 'react';
+
+function Footer() {
+    return (
         <div className='main'>
             <div className='itemLeft'>
                 <div className='itemLeftIn'>
@@ -11,12 +13,20 @@ function Footer(){
             </div>
             <div className='itemMiddle'>
                 ⎯⎯⎯⎯nabthat⎯⎯⎯⎯
-                </div>
+            </div>
             <div className='itemRight'>
-                <button>
-                    <b>POKAŻ&nbsp; ˄</b>
-                </button>
+                <div className="dropup">
+                    <button className="dropbtn" id="toggleMenuButton">
+                        <b>POKAŻ&nbsp; ˄</b>
+                    </button>
+                    <div className='menu' id="smallMenu">
+                        <ul>
+                            <li>Menu Item 1</li>
+                            <li>Menu Item 2</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
         </div>
     );
 }
