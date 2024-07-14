@@ -1,1 +1,13 @@
-@import "../../Variables/global.scss";
+@import "../../../Variables/global.scss";
+
+.panel{
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    justify-content: center;
+    .textdiv{
+        overflow-y: scroll;
+    }
+}

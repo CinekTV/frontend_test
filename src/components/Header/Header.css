@@ -27,6 +27,9 @@
 .navbar .rightPanel .showUser {
   font-weight: bolder;
 }
+.navbar .rightPanel .userName {
+  display: none;
+}
 .navbar .leftPanel {
   flex: 1;
   margin-left: 3%;

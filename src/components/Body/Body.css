@@ -15,12 +15,27 @@
 }
 .body .block {
   flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.body .blockMiddle {
+  flex: 1;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-content: center;
+  display: flex;
 }
 .body .blockLeft {
   flex: 1;
+  width: 33%;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+@media (max-width: 50em) {
   .body div:last-child {
     flex-basis: 100%;
   }

@@ -4,5 +4,7 @@ h3{
     text-align: center;
     color: $fontColor;
     font-family: $font;
-    font-weight: unset;
+    text-transform:uppercase;
+    white-space: nowrap;
+    width: 100%;
 }

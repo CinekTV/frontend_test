@@ -17,7 +17,7 @@ function Body() {
                 <div className="block">
                     <BodyLeft />
                 </div>
-                <div className="block">
+                <div className="blockMiddle">
                     <BodyMiddle />
                 </div>
                 <div className="blockLeft">

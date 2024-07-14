@@ -1,29 +1,48 @@
 @import "../../Variables/global.scss";
 
-.bodyHeader{
+.bodyHeader {
     text-align: center;
     color: $fontColor;
     font-family: $font;
-    h1{
-       font-weight: unset;
-    }   
+
+    h1 {
+        font-weight: unset;
+    }
 }
 
-.body{
+.body {
     font-size: large;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
-    .block{
+
+    .block {
         flex: 1;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
     }
-    .blockLeft{
+
+    .blockMiddle {
         flex: 1;
+        width: fit-content;
+        justify-content: center;
+        display: flex;
+    }
+
+    .blockLeft {
+        flex: 1;
+        width: 33%;
+        justify-content: center;
+        display: flex;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
-@media (max-width: 600px) { /* Adjust the breakpoint as needed */
-    .body div:last-child{
+@media (max-width: 50em) {
+    .body div:last-child {
         flex-basis: 100%;
     }
 }

@@ -1,1 +1,12 @@
-/*# sourceMappingURL=BodyRight.css.map */
+.panel {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  justify-content: center;
+}
+.panel .textdiv {
+  overflow-y: scroll;
+}/*# sourceMappingURL=BodyRight.css.map */
