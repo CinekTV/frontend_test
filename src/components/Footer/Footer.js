@@ -5,9 +5,9 @@ function Footer(){
         <div className='main'>
             <div className='itemLeft'>
                 <div className='itemLeftIn'>
-                    CSS <br />
-                    IS <br />
-                    AWESOME <br />
+                    <span>CSS</span><br />
+                    <span>IS</span><br />
+                    <span>AWESOME</span>
                 </div>
             </div>
             <div className='itemMiddle'>
@@ -15,7 +15,7 @@ function Footer(){
                 </div>
             <div className='itemRight'>
                 <button>
-                    <b>Pokaż&nbsp; ˄</b>
+                    <b>POKAŻ&nbsp; ˄</b>
                 </button>
                 </div>
         </div>

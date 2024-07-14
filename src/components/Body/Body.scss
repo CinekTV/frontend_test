@@ -1,0 +1,29 @@
+@import "../../Variables/global.scss";
+
+.bodyHeader{
+    text-align: center;
+    color: $fontColor;
+    font-family: $font;
+    h1{
+       font-weight: unset;
+    }   
+}
+
+.body{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    .block{
+        flex: 1;
+    }
+    .blockLeft{
+        flex: 1;
+    }
+}
+
+@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+    .body div:last-child{
+        flex-basis: 100%;
+    }
+}

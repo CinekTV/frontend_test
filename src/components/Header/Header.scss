@@ -2,19 +2,20 @@
 .navbar{
     background-color: $headerColor;
     height: 20%;
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: aliceblue;
     width: 100%;
     display: inline-flex;
-    flex: 1 4 1;
     .middle{
         flex: 4;
     }
     div{
         display: inline-flex;
-        flex: 1 4 1;
     }
+    
     .rightPanel{
+        display: inline-flex;
         flex: 2;
         margin-top: auto;
         margin-bottom: auto;
@@ -26,9 +27,9 @@
         .showUser{
             font-weight: bolder;
         }
-        .userName{
-            display:  none;
-        }
+        // .userName{
+        //     display:  none;
+        // }
     }
     .leftPanel{
         flex: 1;
