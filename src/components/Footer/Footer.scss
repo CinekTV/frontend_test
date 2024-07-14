@@ -1,6 +1,6 @@
 @import "../../Variables/global.scss";
 .main{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: $footerBackgroundColor;
     color: $footerMainColor;

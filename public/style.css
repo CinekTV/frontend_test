@@ -3,4 +3,8 @@ body {
   background-color: #252932;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
+  height: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 .navbar {
+  position: fixed;
+  top: 0;
   background-color: #030407;
-  height: 20%;
+  height: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
   color: aliceblue;

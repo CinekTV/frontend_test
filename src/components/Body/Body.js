@@ -7,7 +7,8 @@ import BodyRight from "./BodyRight/BodyRight";
 function Body() {
     return (
         <>
-            <div className="bodyHeader">
+        <div className="container">
+        <div className="bodyHeader">
                 <h1>
                     Nagłówek H1
                 </h1>
@@ -20,10 +21,11 @@ function Body() {
                 <div className="blockMiddle">
                     <BodyMiddle />
                 </div>
-                <div className="blockLeft">
+                <div className="blockRight">
                     <BodyRight />
                 </div>
             </div>
+        </div>
         </>
     )
 }
