@@ -1,7 +1,13 @@
-import './Footer.css';
-import React from 'react';
+import React, { useState } from 'react';
+import './Footer.css'; // Make sure to import your CSS file
 
 function Footer() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <div className='main'>
             <div className='itemLeft'>
@@ -16,10 +22,10 @@ function Footer() {
             </div>
             <div className='itemRight'>
                 <div className="dropup">
-                    <button className="dropbtn" id="toggleMenuButton">
-                        <b>POKAŻ&nbsp; ˄</b>
+                    <button className="dropbtn" id="toggleMenuButton" onClick={toggleMenu}>
+                        <b>{menuOpen ? 'UKRYJ ˄' : 'POKAŻ ˄'}</b>
                     </button>
-                    <div className='menu' id="smallMenu">
+                    <div className={`menu ${menuOpen ? 'show' : ''}`} id="smallMenu">
                         <ul>
                             <li>Menu Item 1</li>
                             <li>Menu Item 2</li>

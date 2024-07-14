@@ -15,6 +15,7 @@
 .main .itemRight {
   margin-right: 5%;
   position: relative; /* Needed for absolute positioning of the menu */
+  z-index: 1;
 }
 .main .itemLeft {
   margin-left: 5%;
@@ -64,13 +65,19 @@
 }
 .main .menu {
   position: absolute;
-  bottom: calc(100% + 26px); /* Position 10px above the button */
+  bottom: 100%; /* Start hidden below the footer */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust to center based on the menu's width */
   width: 200px; /* Fixed width */
   background-color: #fefeff;
   color: #242931;
-  z-index: -1000000; /* Ensure the menu is above the button */
+  z-index: 0;
+  transition: bottom 0.3s ease; /* Smooth transition for sliding effect */
+  display: none; /* Initially hidden */
+}
+.main .menu.show {
+  bottom: calc(100% + 26px); /* Slide up to just above the footer */
+  display: block; /* Show when the .show class is applied */
 }
 .main .menu ul {
   list-style-type: none;
@@ -79,7 +86,4 @@
 }
 .main .menu li {
   padding: 5px 0;
-}
-.main .menu.show {
-  display: block;
 }/*# sourceMappingURL=Footer.css.map */
