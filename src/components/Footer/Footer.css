@@ -35,17 +35,23 @@
   height: 80px;
   width: 80px;
 }
+.main button:hover {
+  border: 2px #fefeff solid;
+  color: #fefeff;
+}
 .main button {
+  border-radius: 4%;
   padding: 2%;
   font-size: 20px;
   width: 50%;
-  border: 1px #242931 solid;
+  border: 2px #242931 solid;
   background-color: #0d0e12;
   color: #727272;
   width: 200px;
   height: 50px;
   overflow: hidden;
   white-space: nowrap;
+  cursor: pointer;
 }
 .main div {
   flex: 1;

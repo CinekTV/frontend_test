@@ -18,10 +18,10 @@ function Body() {
                 <div className="block">
                     <BodyLeft />
                 </div>
-                <div className="blockMiddle">
+                <div className="block">
                     <BodyMiddle />
                 </div>
-                <div className="blockRight">
+                <div className="block">
                     <BodyRight />
                 </div>
             </div>

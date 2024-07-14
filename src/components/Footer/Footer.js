@@ -1,7 +1,6 @@
 import './Footer.css'
 function Footer(){
     return(
-        <>
         <div className='main'>
             <div className='itemLeft'>
                 <div className='itemLeftIn'>
@@ -19,7 +18,6 @@ function Footer(){
                 </button>
                 </div>
         </div>
-        </>
     );
 }
 

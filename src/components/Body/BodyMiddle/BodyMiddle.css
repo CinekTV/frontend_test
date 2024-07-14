@@ -1,4 +1,32 @@
-.panel button {
-  margin-left: 5em;
-  margin-right: 5em;
+.buttonsHolder {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.buttonsHolder button {
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: large;
+  background-color: #252932;
+  color: #fefeff;
+  border: 1px #fefeff solid;
+  font-weight: bold;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.buttonsHolder :focus {
+  outline: none;
+}
+.buttonsHolder :hover {
+  background-image: linear-gradient(to right, #ce7400, #fea01c);
+}
+
+@media (max-width: 50em) {
+  .buttonsHolder {
+    flex-direction: column;
+    align-items: center; /* Center buttons when stacked */
+  }
 }/*# sourceMappingURL=BodyMiddle.css.map */

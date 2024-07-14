@@ -64,9 +64,9 @@
     cursor: pointer;
   }
 
-  .radio-group input[type="radio"]:checked {
-    // background-color: #fff;
-  }
+//   .radio-group input[type="radio"]:checked {
+//     // background-color: #fff;
+//   }
 
   .radio-group input[type="radio"]:checked::after {
     content: '';

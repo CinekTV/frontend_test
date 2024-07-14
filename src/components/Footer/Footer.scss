@@ -1,4 +1,5 @@
 @import "../../Variables/global.scss";
+
 .main{
     position: fixed;
     bottom: 0;
@@ -25,6 +26,7 @@
           display: none;
         }
       }
+      
     .itemLeftIn{
         margin-top: auto;
         margin-bottom: auto;
@@ -36,17 +38,23 @@
         height: 80px;
         width: 80px;
     }
+    button:hover{
+        border:2px $fontColor solid;
+        color: $fontColor;
+        }
     button{
+        border-radius: 4%;
         padding: 2%;
         font-size: 20px;
         width: 50%;
-        border: 1px $footerMainColor solid;
+        border: 2px $footerMainColor solid;
         background-color: $footerBackgroundColor;
         color: $fontColorDarker;
         width: 200px;
         height: 50px;
         overflow: hidden;
         white-space: nowrap;
+        cursor: pointer;
     }
     div{
         flex: 1;

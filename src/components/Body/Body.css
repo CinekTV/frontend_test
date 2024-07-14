@@ -8,8 +8,7 @@
 }
 
 .container {
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-top: 130px;
 }
 
 .body {
@@ -25,23 +24,22 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 33%;
+  max-height: 20%;
 }
 .body .blockMiddle {
   margin-left: 3%;
   margin-right: 3%;
   flex: 1;
-  width: -moz-fit-content;
-  width: fit-content;
   justify-content: center;
+  width: 33%;
 }
 .body .blockRight {
+  width: 33%;
   flex: 1;
   margin-left: 3%;
   margin-right: 3%;
   justify-content: center;
-  overflow: hidden;
 }
 
 @media (max-width: 50em) {

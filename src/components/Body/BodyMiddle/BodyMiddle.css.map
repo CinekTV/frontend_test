@@ -1,1 +1,1 @@
-{"version":3,"sources":["BodyMiddle.scss","BodyMiddle.css"],"names":[],"mappings":"AAGI;EACI,gBAAA;EACA,iBAAA;ACFR","file":"BodyMiddle.css"}
+{"version":3,"sources":["BodyMiddle.scss","BodyMiddle.css","../../../Variables/global.scss"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,SAAA;EACA,uBAAA;ACDJ;ADGI;EACI,uBAAA;EACA,mBAAA;EACA,yBAAA;EACA,gBAAA;EACA,yBEZU;EFaV,cEVI;EFWJ,yBAAA;EACA,iBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;ACDR;ADGI;EACI,aAAA;ACDR;ADGI;EAQI,6DAAA;ACRR;;ADaA;EACI;IACI,sBAAA;IACA,mBAAA,EAAA,gCAAA;ECVN;AACF","file":"BodyMiddle.css"}

@@ -1,1 +1,1 @@
-{"version":3,"sources":["BodyRight.scss","BodyRight.css"],"names":[],"mappings":"AAEA;EAEI,uBAAA;EAKA,WAAA;EACA,WAAA;EACA,kBAAA;EACA,uBAAA;ACNJ;ADDI;EACI,gBAAA;EACA,uBAAA;ACGR","file":"BodyRight.css"}
+{"version":3,"sources":["BodyRight.scss","BodyRight.css","../../../Variables/global.scss"],"names":[],"mappings":"AAGA;EAGI,kBAAA;EACA,uBAAA;ACJJ;ADKI;EACI,oBAAA;EACA,cEPI;EFQJ,gBAAA;ACHR;ADMI;EACI;IACI,eAAA;IACA,mBAAA;ECJV;AACF;ADOI;EACI;IACI,iBAAA;IACA,mBAAA;ECLV;AACF;ADQI;EACI;IACI,iBAAA;IACA,mBAAA;ECNV;AACF;ADSI;EACI;IACI,iBAAA;IACA,mBAAA;ECPV;AACF","file":"BodyRight.css"}
