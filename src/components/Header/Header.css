@@ -30,7 +30,7 @@
 .navbar .rightPanel .showUser {
   font-weight: bolder;
 }
-.navbar .rightPanel .userName {
+.navbar .rightPanel #user {
   display: none;
 }
 .navbar .leftPanel {

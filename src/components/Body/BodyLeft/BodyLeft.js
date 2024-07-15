@@ -2,21 +2,22 @@ import "./BodyLeft.css"
 import Name from "../../Name/Name";
 
 function BodyLeft() {
+
     return (
         <>
         <div className="test">
             <Name>Blok Pierwszy</Name>
             <div className="radio-group">
-            <label for="first">
-                <input type="radio" name="blockOneOption" value="1"/>
+            <label>
+                <input type="radio" name="pick" className="pick" value="10" id="pick"/>
                 Opcja pierwsza
             </label>
-            <label for="second">
-                <input type="radio" name="blockOneOption" value="2"/>
+            <label>
+                <input type="radio" name="pick" className="pick" value="20"/>
                 Opcja druga
             </label>
-            <label for="third">
-                <input type="radio" name="blockOneOption" value="3"/>
+            <label>
+                <input type="radio" name="pick" className="pick" value="30"/>
                 Opcja losowa
             </label>
             </div>

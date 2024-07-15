@@ -7,7 +7,7 @@ import BodyRight from "./BodyRight/BodyRight";
 function Body() {
     return (
         <>
-        <div className="container">
+        <div className="container" id="container">
         <div className="bodyHeader">
                 <h1>
                     Nagłówek H1

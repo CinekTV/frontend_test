@@ -21,6 +21,11 @@
   margin-left: 5%;
   white-space: nowrap;
 }
+.main .itemLeft div:hover {
+  -o-border-image: linear-gradient(to right, #ce7400 0%, #fea01c 100%) 1;
+     border-image: linear-gradient(to right, #ce7400 0%, #fea01c 100%) 1;
+  border-style: solid;
+}
 @media (max-width: 50em) {
   .main .itemMiddle {
     display: none;
@@ -34,6 +39,7 @@
   text-align: left;
   font-size: 80%;
   border: 1px #242931 solid;
+  z-index: 1;
   height: 80px;
   width: 80px;
 }
@@ -78,12 +84,22 @@
 .main .menu.show {
   bottom: calc(100% + 26px); /* Slide up to just above the footer */
   display: block; /* Show when the .show class is applied */
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  box-shadow: 2px 2px 5px black;
 }
 .main .menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+.main .menu ul :hover {
+  color: #fea01c;
+}
 .main .menu li {
-  padding: 5px 0;
+  padding: 0.6em;
+  font-size: 0.6em;
+  border: 1 red solid;
+  font-weight: 600;
+  cursor: pointer;
 }/*# sourceMappingURL=Footer.css.map */

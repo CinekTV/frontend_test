@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <>
-      <div className='navbar'>
+      <div className='navbar' id='navbar'>
         <div className='leftPanel'>
           <div className='logo'>
             <a href="/">
@@ -25,7 +25,7 @@ function Header() {
               rekrutacyjne
             </div>
           </div>
-          <div className='userName'>Marcin Żamojda</div>
+          <div className='userName' id="user">Marcin Żamojda</div>
         </div>
       </div>
     </>
